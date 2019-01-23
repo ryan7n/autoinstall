@@ -1,0 +1,1 @@
+find -name "install-*.sh" -type f -exec /bin/bash {} \;
