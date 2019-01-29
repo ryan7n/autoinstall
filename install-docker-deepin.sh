@@ -7,16 +7,12 @@ sudo apt-get install \
     curl \
     gnupg2 \
     software-properties-common
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-sudo add-apt-repository \
-   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
-   $(lsb_release -cs) \
+curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
+sudo add-apt-repository -r \
+   "deb [arch=amd64] https://download.docker.com/linux/debian \
+   jessie \
    stable"
 sudo apt-get update
 sudo apt-get install docker-ce
 sudo groupadd docker
 sudo usermod -aG docker $USER
-
-./install-mysql.sh
-
-
