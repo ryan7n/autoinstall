@@ -11,7 +11,7 @@ echo "cp property file"
 cp portal-ext.properties $BASEPATH/tomcat/liferay-portal-6.2-bimrun1/
 
 echo "cp log config file"
-cp -r META-INF/ $BASEPATH/tomcat/liferay-portal-6.2-bimrun1/tomcat-7.0.62/lib/
+cp -r META-INF $BASEPATH/tomcat/liferay-portal-6.2-bimrun1/tomcat-7.0.62/lib/
 
 echo "cp setenv.sh"
 cp setenv.sh $BASEPATH/tomcat/liferay-portal-6.2-bimrun1/tomcat-7.0.62/bin
@@ -23,7 +23,7 @@ echo "cp property file"
 cp portal-ext.properties $BASEPATH/tomcat/liferay-portal-6.2-bimrun2/
 
 echo "cp log config file"
-cp -r META-INF/ $BASEPATH/tomcat/liferay-portal-6.2-bimrun2/tomcat-7.0.62/lib/
+cp -r META-INF $BASEPATH/tomcat/liferay-portal-6.2-bimrun2/tomcat-7.0.62/lib/
 
 echo "cp setenv.sh"
 cp setenv.sh $BASEPATH/tomcat/liferay-portal-6.2-bimrun2/tomcat-7.0.62/bin
