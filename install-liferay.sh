@@ -1,4 +1,4 @@
-BASEPATH=/Volumes/work
+BASEPATH=~
 
 echo "unzip liferay tomcat"
 mkdir -p $BASEPATH/tomcat
